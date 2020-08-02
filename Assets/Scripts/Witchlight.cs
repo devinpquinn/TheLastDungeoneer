@@ -6,7 +6,7 @@ public class Witchlight : MonoBehaviour
 {
     private bool inFlight = false;
     private Transform parentPlayer;
-    private float flySpeed = 10f;
+    private float flySpeed = 9f;
     private Rigidbody rb;
     public Vector3 offset;
 
