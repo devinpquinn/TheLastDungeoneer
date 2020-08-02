@@ -9,6 +9,6 @@ public class DustScaler : MonoBehaviour
         ParticleSystem p = GetComponent<ParticleSystem>();
         var em = p.emission;
         var s = p.shape.box;
-        em.rateOverTime = ((s.x * s.y * s.z) / 5f);
+        em.rateOverTime = ((s.x * s.y * s.z) / 2f);
     }
 }
