@@ -7,7 +7,7 @@ public class Witchlight : MonoBehaviour
     private bool inFlight = false;
     private bool inRecall = false;
     private Transform hand;
-    private float flySpeed = 9f;
+    private float flySpeed = 10f;
     private float recallSpeed = 50f;
     private Rigidbody rb;
 
